@@ -19,4 +19,4 @@ jobs:
            docker pull fluidattacks/forces:new
            docker images
            ftoken="eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaXBoZXJ0ZXh0IjoiUkYxV2J1bXBsTjl1Z0pTZlpfRjJ5dk5DUklIVWF1UnpQVVp0SDhzaEV4cVZXQUp0a0U0WTFmZVJwUDdoTC1tR2VJSjgyc0ZfaGp4cDNKVG8xc3NrbWJDb00xcFVIaVcxXzB3YlI0Y2QwY0tNMkR1RTEyeUFyN1R2WDdxVm9zeVgyMGN6WkNmV2VScFVQcVI0dFlOMzZMRXdkSklLclBCMWVfbG1mWWltdUZnS3JkamwteHE5V2tydTU1Y2ZEdmVIdDB4VVpnZ2IxX2dFWHBiRHlhMWM4dk51eWhzd3MtVW1mWlJlc3I2cmhDTlphYjhWYWdzWiIsImVuY3J5cHRlZF9rZXkiOiI4ZTRLQVRrNG5BREpPbENIVDhSUmpraHpwbjNrc1h1S0tNbjV3UG9PLTJzIiwiaGVhZGVyIjp7Iml2IjoiQjFaOWxKTDdzYTVkLWlwRyIsInRhZyI6Ik5IMXZLSERkUlQ1bHNGSGVORnhQUkEifSwiaXYiOiJZWExtdnlwVVFQR2RJNnpCIiwicHJvdGVjdGVkIjoiZXlKaGJHY2lPaUpCTWpVMlIwTk5TMWNpTENKbGJtTWlPaUpCTWpVMlIwTk5JbjAiLCJ0YWciOiI5dXN1ZHo3Zy1HcGwzTDVES3RyNUp3In0.DK57B19cinYz3wFmmaIoWdfEgEdJvEu9DHlJapkvpt8gGNiW9lACMcDw1rgbAEHieroVphQpS7bRuqkIsGS8Ww"
-           docker run --rm -ti fluidattacks/forces:new forces --token --token ${ftoken} -vvv
+           docker run --rm -i fluidattacks/forces:new forces --token --token ${ftoken} -vvv
