@@ -19,4 +19,4 @@ jobs:
            docker pull fluidattacks/forces:new
            docker images
            ftoken="eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaXBoZXJ0ZXh0IjoiTy0xRi1CZE96djlsejBPcG1mREhVU0U4WTM4RkNMZklwYzdIQkwwSDNFY0xzbFk3bU1uMG9VS0Z1WWNsbWdLV0ZUQlBucEVvcDhsWG9VTC1IY0wyeWdYMUF1bC1hR0M0VllNV1RFOHJnRWdZbVhfYXhXYkNwc0NMZFlSSXdQcU5xcjBVbThVQjE2akdsdnB4T2phUEVkVXVQRTJ1VWdIZEVxd1dGaW9fUFpxMVNNQ3ZBLS1odXRKeTk3WWxFN3AxRXZ4R1RTTWdZSG05QTEwMHdyVHAxTlNkaDNyQmVLeHNSbGFWSG56RXFmNnV1VHpTaEFzOSIsImVuY3J5cHRlZF9rZXkiOiJDNC1SR1d0cHY5T2RldlpBU0lCcVdkSDkzTTJGaVhTWFY3V0cyc3p0ekI4IiwiaGVhZGVyIjp7Iml2IjoibWptbTliMDAyYk5JQmxBeSIsInRhZyI6InJNZ3hfeEVuYXREZUJYTW9oMWU4LWcifSwiaXYiOiJfbjJxajRfaXBCNkhiUU1xIiwicHJvdGVjdGVkIjoiZXlKaGJHY2lPaUpCTWpVMlIwTk5TMWNpTENKbGJtTWlPaUpCTWpVMlIwTk5JbjAiLCJ0YWciOiJjR1p4VE9mX0RlekhDZWV0cjFYYjVBIn0.lm5JZBCpFEJ0GKYluhugIH0wlnkajexeCnKqxG2UFzD4w6q7gFWHHZoKwpUA6dG3JQvIxQzp2jufYHPBBPU7EA"
-           docker run --rm -i fluidattacks/forces:new forces --token ${ftoken} -vvvv --repo-name bwapp
+           docker run --rm -i fluidattacks/forces:new forces --token ${ftoken} -vvvv --repo-name bwapp --strict
